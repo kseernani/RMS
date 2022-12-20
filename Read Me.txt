@@ -1,0 +1,23 @@
+#############################################################
+ReadMe for assignment submitted by 2019A8PS0376P
+Practical section number: P12
+Asignment question attempted: 6
+#############################################################
+Team:
+1. 2019A8PS0376P   SANCHIT SINGLA.
+#############################################################
+Description of how to run the code and observe the output: (This is just a sample. You are expected to write in much more detail!!!)
+1. The exe is called 2019A8PS0376P.exe. It is a menu-driven application. 
+2. The input files is train_details which is used for transfering the train details of every train to the code in a structure.
+3. When you run the exe, it will prompt with a starrt page press Enter to go to main menu!
+4. Main Menu has four options:- 1.Enquiry, 2. Reserve a ticket, 3. Cancel a reserved ticket and 4. exit.
+5. When you select 1 and hit enter it shows you differnt available trains and askthe user for a source lacation, anything other than delhi in uppercase will be rejected and no trains avialable is shown.
+6. If you select Input DELHI and further the destionation is asked if anything other than the available destinations is entered then no trains available is shown a particular train is available  it will ask for the train number and will tell you the number of seats left in the train.
+7. 2nd option is the ticket booking/ reservation. When you enter it again asks you you for your name, source and destination and in a similar manner prompts you if trains aren't available.
+8. It doesn't book a ticket if seats aren't available and flashes a message saying no seats available. When the reservation is done the ticket is saved in file named seats_reserved wihch is a text file and is accesible at an moment and also the number of seats get decremented.
+9. The third option is for cancelling the reserved ticket.  when you enter the third option it asks you for your PNR number please enter only a valid PNR number for cancelling else you won't be able to cancel your ticket. further it asks you for your train number and cancels your reservation and also deletes the ticket from the seats_reserved file and increments a seat to total number of available seats in the train. Also refunds 50% of thr amount paid. 
+10. The last option is for ending the program.
+############################################################
+Known limitations of the code (if you have not been able to completely/fully implement certain features that were asked):
+1. Everything works perfectly, just if you cancel a ticket and put a wrong PNR Number. The program stops, and you have to go through the procedure again to cancel the ticket.
+#############################################################
